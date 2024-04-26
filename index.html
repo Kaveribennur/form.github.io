@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Form</title>
+</head>
+<body>
+    <h1>Student Standard Form</h1>
+    <form action="kaveri.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+       
+        <label for="name">Name</label><br>
+        <input type="text"  id="name" placeholder="Name" required pattern="[a-zA-z]{2,20}"><br><br>
+
+        <label for="age">Age</label><br>
+        <input type="age"  id="age"><br><br>
+
+        <label for="date">DOB</label><br>
+        <input type="date" id="date"><br><br>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br><br>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+
+        <label for="email">Email</label><br><br>
+        <input type="email"  id="email"required><br><br>
+
+        <label for="add">Address</label><br>
+       <!--- <input type="add" id="add"><br><br>-->
+       <textarea id="add" cols="30" rows="0"></textarea><br><br>
+
+       <label for="phone">Phone Number</label><br>
+       <input type="phone" id="phone" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+       <label for="time">Time</label><br>
+       <input type="time" id="time"><br><br>
+
+       <label for="month">Month</label><br>
+       <input type="month" id="month"><br><br>
+       </fieldset>
+
+    <fieldset>
+        <legend>Educational Details</legend>
+
+        <label for="reg">Registration Number</label><br>
+        <input type="reg" id="reg"><br><br>
+
+        <label for="clg">College Name</label><br>
+        <input type="clg" id="clg"><br><br>
+  
+        <label for="uni">University</label><br>
+        <input list="uni">
+            <datalist id = "uni">
+                <option>Rani Chenamma University</option>
+                <option>University of Mysore</option>
+                <option>Karnataka University</option>
+                <option>Kuvempu University</option>
+                <option>Davangere University</option>
+                <option>BLDE University</option>
+            </datalist>
+            <br><br>
+
+            <label for="course">Course Name</label><br>
+            <input type="course" id="course"><br><br>
+
+
+             <label for="yop">year of passing</label><br>
+             <!---<input type="yop" id="yop"><br><br>--->
+             <input list="yop">
+            <datalist id = "yop">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                </datalist>
+                <br><br>
+
+            <label for="">Skills</label><br>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="javascript">
+            <label for="javascript">Javascript</label><br>
+
+            <input type="checkbox" id="python">
+            <label for="python">Python</label><br>
+
+            <input type="checkbox" id="core java">
+            <label for="core java">Core Java</label><br>
+
+            <input type="checkbox" id="dbms">
+            <label for="dbms">DBMS</label><br>
+
+            <input type="Submit">
+            <input type="reset"><br>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
